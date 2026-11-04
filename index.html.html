@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head> <title> STUDENT PROFILE CARD </title>
+<style>
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color:pale pink ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+.profile-card {
+            width: 320px;
+            background:sky blue;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+.profile-card img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+.profile-card h1 {
+            margin: 15px 0 8px;
+            font-size: 26px;
+            color:brown;
+        }
+
+.department {
+            font-size: 17px;
+            font-weight: bold;
+            color: #444;
+            margin:green;
+        }
+.email {
+            color: pink;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+.description {
+            color: black;
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+.profile-card button {
+            background: linear-gradient(90deg, #1976d2, #42a5f5);
+            color: peach;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+.profile-card button:hover {
+            transform: scale(1.05);
+        }
+</style>
+
+</head>
+<body>
+    <div class="profile-card">
+        <img src="photo.jpg" alt="Student Photo">
+        <h1>Pavi Dharshini</h1>
+        <p class="department">
+            M.Sc. Artificial Intelligence and Machine Learning
+        </p>
+        <p class="email">
+            pavidharshinisg@gmail.com
+        </p>
+        <p class="description">
+            I am a passionate student interested in Artificial Intelligence,
+            Machine Learning, and technology. I enjoy learning new skills
+            and developing innovative solutions.
+        </p>
+        <button>View Profile</button>
+    </div>
+</body>
+</html>
